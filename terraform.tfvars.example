@@ -1,0 +1,9 @@
+# Скопируйте в terraform.tfvars и подставьте свои значения
+# yc_token получить: yc iam create-token
+# yc_cloud_id получить: yc config get cloud-id
+# yc_folder_id получить: yc config get folder-id
+
+yc_token     = "t1.ВАШ_IAM_ТОКЕН"
+yc_cloud_id  = "b1gXXXXXXXXXXXX"
+yc_folder_id = "b1gXXXXXXXXXXXX"
+ssh_key_path = "/home/ВАШ_ПОЛЬЗОВАТЕЛЬ/.ssh/yc_key.pub"
